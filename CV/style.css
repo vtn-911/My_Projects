@@ -1,0 +1,139 @@
+
+.container{
+    width:1000px;
+    max-width: 100%;
+}
+/* Heading */
+.Heading{
+    width: auto;
+    height: 150px;
+    background: linear-gradient(to right,#ee9ca7,#ffdde1);
+    display: flex;
+}
+.avatar-Profile{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 60% 60% 0;
+}
+#img-avatar{
+    width: 150px;
+    height: 150px;
+    border: 7px #ffdde1 solid;
+    border-radius: 50%;
+
+}
+
+.welcome-word{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    place-items: center;
+}
+#Name_employer,#Name_position,#contact-phone,#contact-email{
+    margin: 0;
+    font-family: 'Tagesschrift', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right,#de4f4f ,#f97284);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Name_employer{
+    font-size: 40px;
+    justify-self: center;
+}
+#Name_position{
+    font-size: 20px;
+    justify-self: center;
+}
+.contact{
+    background-color: aliceblue;
+    width: auto;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+#contact-email,#contact-phone{
+    font-size: 20px;
+    justify-self: center;
+}
+/* Introduce */
+.infomation{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Top infomation */
+.top-infomation{
+    width: 1000px;
+    max-width: 100%;
+    display: flex;
+}
+.left-top-infomation{
+    width: 400px;
+    margin-top: 10px;
+    border-right: 5px solid #ffdde1;
+}
+.text-info{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.right-top-infomation{
+    width: 600px;
+    margin: 0 20px;
+}
+#h1-introduce{
+    background: linear-gradient(to right,#de4f4f ,#f97284);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#text-introduce{
+    text-align: justify;
+}
+
+/* Bottom infomation */
+.bot-infomation{
+    width: 1000px;
+    max-width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+.left-bot-infomation{
+    width: 400px;
+    border-right:5px solid #ffdde1;
+    text-align: right;
+}
+
+.right-bot-infomation{
+    width: 600px;
+    margin: 0 20px;
+}
+
+.first-left-infomation{
+    margin-right: 35px;
+}
+#h1-experience,#h1-project,#h1-skills{
+    background: linear-gradient(to right,#de4f4f ,#f97284);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.describe-project{
+    text-align: justify;
+}
+.list-project{
+    padding: 5px 0;
+}
+.list-skills{
+    font-style: italic;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+
+
+
