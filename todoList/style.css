@@ -1,0 +1,69 @@
+.container{
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(120deg, #77FFD2  ,#6297DB,#1EECFF);
+}
+#h1-todoList{
+    color: rgb(254, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px;
+}
+.create{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    margin: 5px;
+}
+#input-tdL{
+    width: 200px;
+    height: 30px;
+    border-width: 0;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+#button-tdL{
+    width: 35px;
+    height: 35px;
+    font-size: larger;
+    border-width: 0;
+    border-radius: 50%;
+    background-color: white;
+    color: #a1c4fd;
+}
+#button-tdL:hover{
+    background-color: #a1c4fd;
+    color: white;
+}
+
+.list{
+    width: 80%;
+    height: auto;
+    min-height: 300px;
+    box-shadow: inset 5px 5px 10px rgb(38, 84, 118);
+    border-radius: 20px;
+    justify-self: center;
+}
+#table{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+th,td{
+    padding: 5px 8px;
+}
+.checkbox-complete{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    appearance: none;
+    -webkit-appearance: none;
+}

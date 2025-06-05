@@ -2,6 +2,8 @@
 .container{
     width:1000px;
     max-width: 100%;
+    box-shadow: 1px 1px 30px rgb(248, 152, 152);
+    justify-self: center;
 }
 /* Heading */
 .Heading{
@@ -114,7 +116,8 @@
 }
 
 .first-left-infomation{
-    margin-right: 35px;
+    margin-right: 30px;
+    margin-left: 10px;
 }
 #h1-experience,#h1-project,#h1-skills{
     background: linear-gradient(to right,#de4f4f ,#f97284);
