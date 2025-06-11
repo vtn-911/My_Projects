@@ -1,0 +1,65 @@
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(201, 249, 250);
+    justify-self: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    display: grid;
+}
+.elements_1{
+    width: 280px;
+    height: 100px;
+    background-color: azure;
+    position: relative;
+    justify-self: center;
+    top: 10px;
+    border-radius: 10px;
+}
+.elements_2{
+    width: 290px;
+    height: 200px;
+    justify-self: center;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+}
+.pheptinhs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+}
+.number{
+    width: 55px;
+    height: 40px;
+    background-color: rgba(56, 140, 204, 0.689);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.pheptinh{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.number:hover,.pheptinh:hover{
+    box-shadow: inset 5px 5px 10px #013583a6;
+    color: aliceblue;
+}
